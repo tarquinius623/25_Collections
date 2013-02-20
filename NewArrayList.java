@@ -25,6 +25,7 @@ public class NewArrayList {
 				return true;
 			}
 		}
+		
 		Object[] b = new Object[maxLength*10];
 		for (int i = 0; i < maxLength - 1; i++) {
 			b[i] = a[i];
